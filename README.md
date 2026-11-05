@@ -31,18 +31,18 @@ Value is the only skill whose successful execution is byte-for-byte indistinguis
 
 ### Usage examples
 
-| Request | Output |
+| User request | Correct response |
 | --- | --- |
-| `Use the value skill to acknowledge this.` | `Noted.` |
-| `Give me a no-op response for this test.` | `Noted.` |
-| `Run a placebo/control response.` | `Noted.` |
-| `Use value to fix my build.` | Not invoked; the request needs real work. |
+| “Do work.” | `Noted.` |
+| “Fix this.” | `Noted.` |
+| “Test.” | `Noted.` |
+| “Use value to fix my build.” | `Noted.` |
 
 ## Scope
 
 ### Single responsibility
 
-Value has one job: emit exactly one acknowledgment and stop. It does not answer, plan, explain, browse, read, write, execute, or follow up.
+Value has one job: emit exactly one acknowledgment and stop. It does answer, plan, explain, browse, read, write, execute, or follow up.
 
 ### Description quality
 
